@@ -1,0 +1,30 @@
+.box {
+    height: 500px;
+    width: 500px;
+    border: 3px solid;
+}
+
+.item1, .item2 {
+    height: 150px;
+    width: 150px;
+    color: white;
+}
+
+.item1 {
+    background-color: rgb(245, 61, 61);
+    animation: move 5s ease forwards;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(200px);
+    }
+}
+
+.item2 {
+    background-color: rgb(36, 120, 255);
+}
+
